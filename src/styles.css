@@ -1,0 +1,432 @@
+/* Global Styles */
+body {
+  font-family: 'Fredoka One', sans-serif; /* Changed to Fredoka One */
+  background: #fff3e6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Wrapper for Centered Content */
+
+/* Navbar - Full Width */
+.navbar {
+  width: 100%;
+  background: linear-gradient(45deg, #ff4d6d, #ff9f1c);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Fredoka One';
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar h1 img {
+  /* You can add specific styles for your navbar logo image here */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar ul li {
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.navbar ul li:hover {
+  color: yellow;
+}
+
+/* Hero Section - Full Width */
+.hero {
+  width: 100%;
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  max-width: 800px;
+  padding: 20px;
+  z-index: 2;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  z-index: 5;
+  font-family: 'Fredoka One'; /* Apply Bangers font */
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'Chewy', sans-serif; /* Apply Chewy font */
+}
+
+.hero-content button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background: white;
+  color: #ff2d55;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto;
+  font-family: 'Fredoka One';
+}
+
+.hero-content button:hover {
+  transition:0.6s ;
+  background: black;
+  color: white;
+}
+
+/* About Section */
+.about {
+  padding: 100px 20px;
+  text-align: center;
+  color: #ff3b30;
+  font-family: 'Fredoka One';
+}
+
+.about p {
+  color: #222;
+  font-size: 20px;
+  font-family: 'Fredoka One', sans-serif; /* Apply Fredoka One font */
+}
+
+/* Products Section */
+.products {
+  text-align: center;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.products h2 {
+  font-size: 28px;
+  color: #ff3b30;
+  font-family: 'Fredoka One';
+ 
+}
+
+.product-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+  font-family: 'Fredoka One', sans-serif; /* Apply Fredoka One font */
+}
+
+.product-card p {
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Fredoka One';
+}
+
+.product-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #ff2d55;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: 'Fredoka One';
+}
+
+.product-card button:hover {
+  background: #ff3b30;
+}
+
+/* Testimonials Section */
+.testimonials {
+  text-align: center;
+  padding: 80px 20px;
+  background: #fff3e6;
+}
+
+.testimonials h2 {
+  font-size: 28px;
+  color: #ff3b30;
+  margin-bottom: 30px;
+  font-family: 'Fredoka One';
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 280px;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.testimonial-card::before {
+  content: "“";
+  font-size: 50px;
+  color: #ff3b30;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+
+.testimonial-card::after {
+  content: "”";
+  font-size: 50px;
+  color: #ff3b30;
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+.testimonial-card p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+  font-family: 'Fredoka One';/* Apply Chewy font */
+}
+
+.testimonial-card h4 {
+  font-size: 18px;
+  color: #ff3b30;
+  font-weight: bold;
+  font-family: 'Fredoka One', sans-serif; /* Apply Fredoka One font */
+}
+
+/* Contact Us Section */
+.contact {
+  background: #1e1e1e;
+  padding: 60px 20px;
+  color: white;
+  border-radius: 16px;
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.3);
+  margin: 50px auto;
+  max-width: 900px;
+  font-family: 'Fredoka One';
+  text-align: center;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #ff6f61;
+}
+
+.contact p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #bbb;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+.contact-info a {
+  color: #ff6f61;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #ff5722;
+}
+
+.search-bar {
+  margin: 30px 0;
+}
+
+.search-bar input {
+  padding: 12px;
+  font-size: 18px;
+  width: 60%;
+  border-radius: 20px;
+  border: 2px solid #ff6f61;
+  background-color: #2c2c2c;
+  color: white;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+  border-color: #ff5722;
+}
+
+.search-bar button {
+  padding: 12px 25px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.search-bar button:hover {
+  background-color: #ff5722;
+}
+
+.social-links {
+  margin: 30px 0;
+}
+
+.social-links p {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.social-links a {
+  color: #ff6f61;
+  font-size: 18px;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff5722;
+  text-decoration: underline;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form textarea {
+  padding: 15px;
+  width: 80%;
+  border-radius: 10px;
+  border: 2px solid #ff6f61;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form textarea:focus {
+  border-color: #ff5722;
+}
+
+.contact-form button {
+  padding: 14px 30px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ff5722;
+}
+
+/* Footer - Full Width */
+.footer {
+  width: 100%;
+  background: #007aff;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: 'Fredoka One';
+}
