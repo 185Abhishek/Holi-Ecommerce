@@ -4,28 +4,26 @@ import "@fontsource/bangers";
 import "./styles.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CarausalPage from "./CarausalPage";
+import gulan from './assests/gulal.webp'
+import pic2 from './assests/pichkari.jpg'
+import pic3 from './assests/ballons.webp'
+import pic4 from './assests/sweets.jpg'
+import pic5 from './assests/holi_tshirt.jpg'
+import pic6 from './assests/mask.jfif'
+import pic7 from './assests/kit.avif'
+import pic8 from './assests/thandai.jfif'
 
-
-// const products = [
-//   { id: 1, name: "Organic Gulal", price: "₹199", img: "src/assests/gulal.webp" },
-//   { id: 2, name: "Pichkari Set", price: "₹299", img: "src/assests/pichkari.jpg" },
-//   { id: 3, name: "Holi Water Balloons", price: "₹149", img: "src/assests/ballons.webp" },
-//   { id: 4, name: "Sweets", price: "₹189", img: "src/assests/sweets.jpg" },
-//   { id: 5, name: "festive-outfits", price: "₹249", img: "src/assests/holi_tshirt.jpg" },
-//   { id: 6, name: "Holi-Mask", price: "₹448", img: "src/assests/mask.jfif" },
-//   { id: 7, name: "Holi-kit", price: "₹649", img: "src/assests/kit.avif" },
-//   { id: 8, name: "Thandai", price: "₹749", img: "src/assests/thandai.jfif" },
-// ];
 const products = [
-  { id: 1, name: "Organic Gulal", price: "₹199", img: "/assests/gulal.webp" },
-  { id: 2, name: "Pichkari Set", price: "₹299", img: "/assests/pichkari.jpg" },
-  { id: 3, name: "Holi Water Balloons", price: "₹149", img: "/assests/ballons.webp" },
-  { id: 4, name: "Sweets", price: "₹189", img: "/assests/sweets.jpg" },
-  { id: 5, name: "Festive Outfits", price: "₹249", img: "/assests/holi_tshirt.jpg" },
-  { id: 6, name: "Holi Mask", price: "₹448", img: "/assests/mask.jfif" },
-  { id: 7, name: "Holi Kit", price: "₹649", img: "/assests/kit.avif" },
-  { id: 8, name: "Thandai", price: "₹749", img: "/assests/thandai.jfif" },
+  { id: 1, name: "Organic Gulal", price: "₹199", img: gulan },
+  { id: 2, name: "Pichkari Set", price: "₹299", img: pic2 },
+  { id: 3, name: "Holi Water Balloons", price: "₹149", img: pic3 },
+  { id: 4, name: "Sweets", price: "₹189", img: pic4 },
+  { id: 5, name: "festive-outfits", price: "₹249", img: pic5 },
+  { id: 6, name: "Holi-Mask", price: "₹448", img: pic6 },
+  { id: 7, name: "Holi-kit", price: "₹649", img: pic7 },
+  { id: 8, name: "Thandai", price: "₹749", img: pic8 },
 ];
+
 
 
 const Navbar = ({ cartCount }) => (
