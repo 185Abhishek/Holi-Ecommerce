@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "@fontsource/bangers";
-import "@fontsource/chewy";
+// import "@fontsource/chewy";
 import "./styles.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CarausalPage from "./CarausalPage";
