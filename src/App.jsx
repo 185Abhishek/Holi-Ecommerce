@@ -5,16 +5,28 @@ import "./styles.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CarausalPage from "./CarausalPage";
 
+
+// const products = [
+//   { id: 1, name: "Organic Gulal", price: "₹199", img: "src/assests/gulal.webp" },
+//   { id: 2, name: "Pichkari Set", price: "₹299", img: "src/assests/pichkari.jpg" },
+//   { id: 3, name: "Holi Water Balloons", price: "₹149", img: "src/assests/ballons.webp" },
+//   { id: 4, name: "Sweets", price: "₹189", img: "src/assests/sweets.jpg" },
+//   { id: 5, name: "festive-outfits", price: "₹249", img: "src/assests/holi_tshirt.jpg" },
+//   { id: 6, name: "Holi-Mask", price: "₹448", img: "src/assests/mask.jfif" },
+//   { id: 7, name: "Holi-kit", price: "₹649", img: "src/assests/kit.avif" },
+//   { id: 8, name: "Thandai", price: "₹749", img: "src/assests/thandai.jfif" },
+// ];
 const products = [
-  { id: 1, name: "Organic Gulal", price: "₹199", img: "src/assests/gulal.webp" },
-  { id: 2, name: "Pichkari Set", price: "₹299", img: "src/assests/pichkari.jpg" },
-  { id: 3, name: "Holi Water Balloons", price: "₹149", img: "src/assests/ballons.webp" },
-  { id: 4, name: "Sweets", price: "₹189", img: "src/assests/sweets.jpg" },
-  { id: 5, name: "festive-outfits", price: "₹249", img: "src/assests/holi_tshirt.jpg" },
-  { id: 6, name: "Holi-Mask", price: "₹448", img: "src/assests/mask.jfif" },
-  { id: 7, name: "Holi-kit", price: "₹649", img: "src/assests/kit.avif" },
-  { id: 8, name: "Thandai", price: "₹749", img: "src/assests/thandai.jfif" },
+  { id: 1, name: "Organic Gulal", price: "₹199", img: "/assests/gulal.webp" },
+  { id: 2, name: "Pichkari Set", price: "₹299", img: "/assests/pichkari.jpg" },
+  { id: 3, name: "Holi Water Balloons", price: "₹149", img: "/assests/ballons.webp" },
+  { id: 4, name: "Sweets", price: "₹189", img: "/assests/sweets.jpg" },
+  { id: 5, name: "Festive Outfits", price: "₹249", img: "/assests/holi_tshirt.jpg" },
+  { id: 6, name: "Holi Mask", price: "₹448", img: "/assests/mask.jfif" },
+  { id: 7, name: "Holi Kit", price: "₹649", img: "/assests/kit.avif" },
+  { id: 8, name: "Thandai", price: "₹749", img: "/assests/thandai.jfif" },
 ];
+
 
 const Navbar = ({ cartCount }) => (
   <nav className="navbar">
@@ -33,6 +45,8 @@ const Navbar = ({ cartCount }) => (
     </div>
   </nav>
 );
+
+
 
 const Hero = () => (
   <div className="hero-content">
