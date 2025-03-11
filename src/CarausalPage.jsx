@@ -6,21 +6,21 @@ const CarausalPage = () => {
     <div>
       <Carousel>
         <Carousel.Item>
-          <img style={{ height: '80vh', position: 'relative', objectFit: 'cover' }} className="d-block w-100" src="holi_crousal.webp" alt="" />
+          <img style={{ height: '80vh', position: 'relative', objectFit: 'cover' }} className="d-block w-100" src="src/assests/holi_crousal.webp" alt="" />
           <Carousel.Caption>
              
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ height: '80vh' ,objectFit: 'cover'}} className="d-block w-100" src="holi-cro4.jpg" alt="" />
+          <img style={{ height: '80vh' ,objectFit: 'cover'}} className="d-block w-100" src="src/assests/holi-cro4.jpg" alt="" />
           <Carousel.Caption>
             
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ height: '80vh', objectFit: 'cover' }} className="d-block w-100" src="holi_cro2.jpg" alt="" />
+          <img style={{ height: '80vh', objectFit: 'cover' }} className="d-block w-100" src="src/assests/holi_cro2.jpg" alt="" />
           <Carousel.Caption>
             
           </Carousel.Caption>
