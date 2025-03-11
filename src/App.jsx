@@ -3,6 +3,7 @@ import "@fontsource/bangers";
 // import "@fontsource/chewy";
 import "./styles.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FaBarsStaggered } from "react-icons/fa6";
 import CarausalPage from "./CarausalPage";
 import gulan from './assests/gulal.webp'
 import pic2 from './assests/pichkari.jpg'
@@ -31,6 +32,7 @@ const Navbar = ({ cartCount }) => (
     <div className="wrapper">
       <div className="inner">
         <h1>Holi Shop</h1>
+     
         <ul>
           <li>Home</li>
           <li>About Us</li>
@@ -38,7 +40,12 @@ const Navbar = ({ cartCount }) => (
           <li>Testimonials</li>
           <li>Contact Us</li>
           <li className="cart">Cart ({cartCount})</li>
+          
+          <div class="bar">
+        <FaBarsStaggered />
+      </div>
         </ul>
+       
       </div>
     </div>
   </nav>

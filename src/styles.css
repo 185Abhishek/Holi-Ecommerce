@@ -55,7 +55,9 @@ body {
 .navbar ul li:hover {
   color: yellow;
 }
-
+.bar{
+  display:none;
+}
 /* Hero Section - Full Width */
 .hero {
   width: 100%;
@@ -434,6 +436,12 @@ body {
 }
 
 
-@media (max-width:768px){
-  na
+@media (max-width: 768px) {
+  .navbar ul li {
+    display: none; /* Hide the navbar items */
+  }
+
+  .bar {
+    display: block; 
+  }
 }
